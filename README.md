@@ -9,15 +9,17 @@ Nessa atividade,vamos evoluir o projeto para que a home-page funcione bem tanto 
 
 ## Informações Gerais
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Sara da Cruz Freitas
+- Matricula: 907539
+- Proposta de projeto escolhida: 4. Coleções e Itens. Galeria e obras, álbuns e faixas, exposições e peças
+- Breve descrição sobre seu projeto: Álbuns e faixas
 
 ## Print da versão responsiva com CSS puro
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print](print.png)
+
 
 ## Print da versão responsiva com Bootstrap
 
-<<  COLOQUE A IMAGEM AQUI >>
+![Print](print-bootstrap.png)
+

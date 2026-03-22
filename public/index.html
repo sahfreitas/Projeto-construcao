@@ -1,12 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>DiscoWeb</title>
+    <link rel="stylesheet" href="./assetes/css/styles.css">
+    <script src="https://kit.fontawesome.com/4f9ad486b7.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
-    
+    <div class="wrapper">
+        <header>
+            <div class="header-container">
+                <span class="logo">LOGO</span>
+
+                <nav class="nav-links">
+                    <div class="search-bar">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path
+                                d="M10.25 2a8.25 8.25 0 0 1 6.34 13.53l5.69 5.69a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-5.69-5.69A8.25 8.25 0 1 1 10.25 2ZM3.5 10.25a6.75 6.75 0 1 0 13.5 0 6.75 6.75 0 0 0-13.5 0Z">
+                            </path>
+                        </svg></i>
+                        <input type="text" placeholder="found a music album">
+                    </div>
+
+                    <a href="#">Home</a>
+                    <a href="#">Sobre Nós</a>
+                    <a href="#">Contato</a>
+                    <i class="fa-regular fa-user"></i>
+                </nav>
+            </div>
+        </header>
+        <aside class="sidebar">
+            <div class="sidebar-logo">ss</div>
+
+            <button class="icon-btn accent"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                    height="24">
+                    <path
+                        d="M2 3.75C2 2.784 2.784 2 3.75 2h16.5c.966 0 1.75.784 1.75 1.75v16.5c0 .464-.184.909-.513 1.237A1.746 1.746 0 0 1 20.25 22H3.75c-.464 0-.909-.184-1.237-.513A1.746 1.746 0 0 1 2 20.25V3.75Zm1.75-.25a.25.25 0 0 0-.25.25v16.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25V3.75a.25.25 0 0 0-.25-.25H3.75Z">
+                    </path>
+                    <path d="M14.5 12a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Zm1.5 0a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"></path>
+                </svg></button>
+
+            <div class="sidebar-sep"></div>
+
+            <button class="icon-btn active"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24"
+                    height="24">
+                    <path
+                        d="M11.03 2.59a1.501 1.501 0 0 1 1.94 0l7.5 6.363a1.5 1.5 0 0 1 .53 1.144V19.5a1.5 1.5 0 0 1-1.5 1.5h-5.75a.75.75 0 0 1-.75-.75V14h-2v6.25a.75.75 0 0 1-.75.75H4.5A1.5 1.5 0 0 1 3 19.5v-9.403c0-.44.194-.859.53-1.144ZM12 3.734l-7.5 6.363V19.5h5v-6.25a.75.75 0 0 1 .75-.75h3.5a.75.75 0 0 1 .75.75v6.25h5v-9.403Z">
+                    </path>
+                </svg></button>
+            <button class="icon-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path
+                        d="M10.25 2a8.25 8.25 0 0 1 6.34 13.53l5.69 5.69a.749.749 0 0 1-.326 1.275.749.749 0 0 1-.734-.215l-5.69-5.69A8.25 8.25 0 1 1 10.25 2ZM3.5 10.25a6.75 6.75 0 1 0 13.5 0 6.75 6.75 0 0 0-13.5 0Z">
+                    </path>
+                </svg></button>
+            <button class="icon-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path
+                        d="M5.5 2.75A2.75 2.75 0 0 0 2.75 5.5v3a2.75 2.75 0 0 0 2.75 2.75h3a2.75 2.75 0 0 0 2.75-2.75v-3A2.75 2.75 0 0 0 8.5 2.75h-3ZM4.25 5.5c0-.69.56-1.25 1.25-1.25h3c.69 0 1.25.56 1.25 1.25v3c0 .69-.56 1.25-1.25 1.25h-3c-.69 0-1.25-.56-1.25-1.25v-3Zm1.25 7.25a2.75 2.75 0 0 0-2.75 2.75v3a2.75 2.75 0 0 0 2.75 2.75h3a2.75 2.75 0 0 0 2.75-2.75v-3a2.75 2.75 0 0 0-2.75-2.75h-3ZM4.25 15.5c0-.69.56-1.25 1.25-1.25h3c.69 0 1.25.56 1.25 1.25v3c0 .69-.56 1.25-1.25 1.25h-3c-.69 0-1.25-.56-1.25-1.25v-3Zm8.5-10a2.75 2.75 0 0 1 2.75-2.75h3a2.75 2.75 0 0 1 2.75 2.75v3a2.75 2.75 0 0 1-2.75 2.75h-3a2.75 2.75 0 0 1-2.75-2.75v-3Zm2.75-1.25c-.69 0-1.25.56-1.25 1.25v3c0 .69.56 1.25 1.25 1.25h3c.69 0 1.25-.56 1.25-1.25v-3c0-.69-.56-1.25-1.25-1.25h-3Zm0 8.5a2.75 2.75 0 0 0-2.75 2.75v3a2.75 2.75 0 0 0 2.75 2.75h3a2.75 2.75 0 0 0 2.75-2.75v-3a2.75 2.75 0 0 0-2.75-2.75h-3Zm-1.25 2.75c0-.69.56-1.25 1.25-1.25h3c.69 0 1.25.56 1.25 1.25v3c0 .69-.56 1.25-1.25 1.25h-3c-.69 0-1.25-.56-1.25-1.25v-3Z">
+                    </path>
+                </svg></button>
+            <button class="icon-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                    <path
+                        d="M8 16a2 2 0 0 0 1.985-1.75c.017-.137-.097-.25-.235-.25h-3.5c-.138 0-.252.113-.235.25A2 2 0 0 0 8 16ZM3 5a5 5 0 0 1 10 0v2.947c0 .05.015.098.042.139l1.703 2.555A1.519 1.519 0 0 1 13.482 13H2.518a1.516 1.516 0 0 1-1.263-2.36l1.703-2.554A.255.255 0 0 0 3 7.947Zm5-3.5A3.5 3.5 0 0 0 4.5 5v2.947c0 .346-.102.683-.294.97l-1.703 2.556a.017.017 0 0 0-.003.01l.001.006c0 .002.002.004.004.006l.006.004.007.001h10.964l.007-.001.006-.004.004-.006.001-.007a.017.017 0 0 0-.003-.01l-1.703-2.554a1.745 1.745 0 0 1-.294-.97V5A3.5 3.5 0 0 0 8 1.5Z">
+                    </path>
+                </svg></button>
+            <button class="icon-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path
+                        d="M.408 15.13a2 2 0 0 1 .59-2.642L17.038 1.33a1.999 1.999 0 0 1 2.85.602l2.828 4.644a2 2 0 0 1-.851 2.847l-17.762 8.43a2 2 0 0 1-2.59-.807Zm5.263-4.066 1.987 3.44 8.712-4.135-2.857-4.76Zm12.06-1.34.001-.001 3.49-1.656a.498.498 0 0 0 .212-.712l-2.826-4.644a.503.503 0 0 0-.713-.151l-3.148 2.19Zm-13.295 2.2L1.854 13.72a.5.5 0 0 0-.147.66l1.105 1.915a.5.5 0 0 0 .648.201l2.838-1.347ZM17.155 22.87a.75.75 0 0 0 .226-1.036l-4-6.239a.75.75 0 0 0-.941-.278l-2.75 1.25a.75.75 0 0 0-.318.274l-3.25 4.989a.75.75 0 0 0 1.256.819l3.131-4.806.51-.232v5.64a.75.75 0 1 0 1.5 0v-6.22l3.6 5.613a.75.75 0 0 0 1.036.226Z">
+                    </path>
+                </svg></button>
+            <button class="icon-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path
+                        d="M2.75 2h18.5c.966 0 1.75.784 1.75 1.75v3.5A1.75 1.75 0 0 1 21.25 9H2.75A1.75 1.75 0 0 1 1 7.25v-3.5C1 2.784 1.784 2 2.75 2Zm18.5 1.5H2.75a.25.25 0 0 0-.25.25v3.5c0 .138.112.25.25.25h18.5a.25.25 0 0 0 .25-.25v-3.5a.25.25 0 0 0-.25-.25ZM2.75 10a.75.75 0 0 1 .75.75v9.5c0 .138.112.25.25.25h16.5a.25.25 0 0 0 .25-.25v-9.5a.75.75 0 0 1 1.5 0v9.5A1.75 1.75 0 0 1 20.25 22H3.75A1.75 1.75 0 0 1 2 20.25v-9.5a.75.75 0 0 1 .75-.75Z">
+                    </path>
+                    <path d="M9.75 11.5a.75.75 0 0 0 0 1.5h4.5a.75.75 0 0 0 0-1.5h-4.5Z"></path>
+                </svg></button>
+
+            <div class="sidebar-spacer"></div>
+
+            <button class="icon-btn"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                    <path d="M16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Zm-1.5 0a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z"></path>
+                    <path
+                        d="M12 1c.266 0 .532.009.797.028.763.055 1.345.617 1.512 1.304l.352 1.45c.019.078.09.171.225.221.247.089.49.19.728.302.13.061.246.044.315.002l1.275-.776c.603-.368 1.411-.353 1.99.147.402.349.78.726 1.128 1.129.501.578.515 1.386.147 1.99l-.776 1.274c-.042.069-.058.185.002.315.112.238.213.481.303.728.048.135.142.205.22.225l1.45.352c.687.167 1.249.749 1.303 1.512.038.531.038 1.063 0 1.594-.054.763-.616 1.345-1.303 1.512l-1.45.352c-.078.019-.171.09-.221.225-.089.248-.19.491-.302.728-.061.13-.044.246-.002.315l.776 1.275c.368.603.353 1.411-.147 1.99-.349.402-.726.78-1.129 1.128-.578.501-1.386.515-1.99.147l-1.274-.776c-.069-.042-.185-.058-.314.002a8.606 8.606 0 0 1-.729.303c-.135.048-.205.142-.225.22l-.352 1.45c-.167.687-.749 1.249-1.512 1.303-.531.038-1.063.038-1.594 0-.763-.054-1.345-.616-1.512-1.303l-.352-1.45c-.019-.078-.09-.171-.225-.221a8.138 8.138 0 0 1-.728-.302c-.13-.061-.246-.044-.315-.002l-1.275.776c-.603.368-1.411.353-1.99-.147-.402-.349-.78-.726-1.128-1.129-.501-.578-.515-1.386-.147-1.99l.776-1.274c.042-.069.058-.185-.002-.314a8.606 8.606 0 0 1-.303-.729c-.048-.135-.142-.205-.22-.225l-1.45-.352c-.687-.167-1.249-.749-1.304-1.512a11.158 11.158 0 0 1 0-1.594c.055-.763.617-1.345 1.304-1.512l1.45-.352c.078-.019.171-.09.221-.225.089-.248.19-.491.302-.728.061-.13.044-.246.002-.315l-.776-1.275c-.368-.603-.353-1.411.147-1.99.349-.402.726-.78 1.129-1.128.578-.501 1.386-.515 1.99-.147l1.274.776c.069.042.185.058.315-.002.238-.112.481-.213.728-.303.135-.048.205-.142.225-.22l.352-1.45c.167-.687.749-1.249 1.512-1.304C11.466 1.01 11.732 1 12 1Zm-.69 1.525c-.055.004-.135.05-.161.161l-.353 1.45a1.832 1.832 0 0 1-1.172 1.277 7.147 7.147 0 0 0-.6.249 1.833 1.833 0 0 1-1.734-.074l-1.274-.776c-.098-.06-.186-.036-.228 0a9.774 9.774 0 0 0-.976.976c-.036.042-.06.131 0 .228l.776 1.274c.314.529.342 1.18.074 1.734a7.147 7.147 0 0 0-.249.6 1.831 1.831 0 0 1-1.278 1.173l-1.45.351c-.11.027-.156.107-.16.162a9.63 9.63 0 0 0 0 1.38c.004.055.05.135.161.161l1.45.353a1.832 1.832 0 0 1 1.277 1.172c.074.204.157.404.249.6.268.553.24 1.204-.074 1.733l-.776 1.275c-.06.098-.036.186 0 .228.301.348.628.675.976.976.042.036.131.06.228 0l1.274-.776a1.83 1.83 0 0 1 1.734-.075c.196.093.396.176.6.25a1.831 1.831 0 0 1 1.173 1.278l.351 1.45c.027.11.107.156.162.16a9.63 9.63 0 0 0 1.38 0c.055-.004.135-.05.161-.161l.353-1.45a1.834 1.834 0 0 1 1.172-1.278 6.82 6.82 0 0 0 .6-.248 1.831 1.831 0 0 1 1.733.074l1.275.776c.098.06.186.036.228 0 .348-.301.675-.628.976-.976.036-.042.06-.131 0-.228l-.776-1.275a1.834 1.834 0 0 1-.075-1.733c.093-.196.176-.396.25-.6a1.831 1.831 0 0 1 1.278-1.173l1.45-.351c.11-.027.156-.107.16-.162a9.63 9.63 0 0 0 0-1.38c-.004-.055-.05-.135-.161-.161l-1.45-.353c-.626-.152-1.08-.625-1.278-1.172a6.576 6.576 0 0 0-.248-.6 1.833 1.833 0 0 1 .074-1.734l.776-1.274c.06-.098.036-.186 0-.228a9.774 9.774 0 0 0-.976-.976c-.042-.036-.131-.06-.228 0l-1.275.776a1.831 1.831 0 0 1-1.733.074 6.88 6.88 0 0 0-.6-.249 1.835 1.835 0 0 1-1.173-1.278l-.351-1.45c-.027-.11-.107-.156-.162-.16a9.63 9.63 0 0 0-1.38 0Z">
+                    </path>
+                </svg></button>
+        </aside>
+        <main>
+            <section>
+                <img src="https://picsum.photos/400/400" alt="Capa do album">
+                <h6>
+                    <span class="album-name">Nome do Álbum</span>
+                    <span class="album-artist">Artista / Banda</span>
+                    <span class="album-artist">2024</span>
+                </h6>
+                <div class="hero-text">
+                    <h1>Lorem ipsum</h1>
+                    <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam, aperiam consequuntur vel
+                        non in
+                        placeat aliquam, quas beatae totam velit quasi ratione similique vero? Repudiandae inventore
+                        eveniet
+                        distinctio reprehenderit ullam?
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Recusandae distinctio laboriosam iste
+                        illo,
+                        nemo dignissimos tempore voluptatibus ab, laborum saepe sint repellendus. Laboriosam
+                        reprehenderit
+                        provident veniam laborum et aliquam harum!
+                        Recusandae distinctio laboriosam iste
+                        illo,
+                        nemo dignissimos tempore voluptatibus ab, laborum saepe sint repellendus. Laboriosam
+                        reprehenderit
+                        provident veniam laborum et aliquam harum!
+                    </h3>
+                </div>
+            </section>
+            <div class="sep sep1">Vestibulum faucibus sem vitae lacus blandit, interdum efficitur leo accumsan. Cras ac
+                libero sed metus faucibus egestas non porta ligula.</div>
+            <section>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse atque nobis voluptas sapiente
+                    delectus eos, repellendus nisi unde commodi a ipsum aliquam eligendi ex soluta explicabo cupiditate
+                    aut
+                    at.</h2>
+                <ul>
+                    <li>
+                        <img src="https://picsum.photos/200/200?grayscale" alt="Capa do álbum">
+                        <span class="card-name">Nome do Álbum</span>
+                        <span class="card-artist">Artista / Banda</span>
+                    </li>
+                    <li>
+                        <img src="https://picsum.photos/200/" alt="Capa do álbum">
+                        <span class="card-name">Nome do Álbum</span>
+                        <span class="card-artist">Artista / Banda</span>
+                    </li>
+                    <li>
+                        <img src="https://picsum.photos/200/200" alt="Capa do álbum">
+                        <span class="card-name">Nome do Álbum</span>
+                        <span class="card-artist">Artista / Banda</span>
+                    </li>
+                    <li>
+                        <img src="https://picsum.photos/id/870/200/300?grayscale" alt="Capa do álbum">
+                        <span class="card-name">Nome do Álbum</span>
+                        <span class="card-artist">Artista / Banda</span>
+                    </li>
+                </ul>
+            </section>
+            <div class="sep sep2">Vestibulum faucibus sem vitae lacus blandit, interdum efficitur leo accumsan. Cras ac
+                libero sed metus faucibus egestas non porta ligula.</div>
+            <section>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse atque nobis voluptas sapiente
+                    delectus eos, repellendus nisi unde commodi a ipsum aliquam eligendi ex soluta explicabo cupiditate
+                    aut
+                    at.</h2>
+                <div class="chips-grid">
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                    <div class="chip">
+                        <div class="chip-icon">✕</div> Lorem ipsum
+                    </div>
+                </div>
+            </section>
+            <div class="sep sep3">Vestibulum faucibus sem vitae lacus blandit, interdum efficitur leo accumsan. Cras ac
+                libero sed metus faucibus egestas non porta ligula.</div>
+            <section>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse atque nobis voluptas sapiente
+                    delectus eos, repellendus nisi unde commodi a ipsum aliquam eligendi ex soluta explicabo cupiditate
+                    aut
+                    at.</h2>
+                <ul>
+                    <li>
+                        <img src="https://picsum.photos/id/237/200/300" alt="Capa do album">
+                        <span class="card-name">Nome do Artista</span>     
+                        <span class="card-artist">Artista</span>
+                    </li>
+                    <li>
+                        <img src="https://picsum.photos/200" alt="Capa do album">
+                        <span class="card-name">Nome do Artista</span>
+                        <span class="card-artist">Artista</span>
+                    </li>
+                    <li>
+                        <img src="https://picsum.photos/seed/picsum/200" alt="Capa do album">
+                        <span class="card-name">Nome do Artista</span>
+                        <span class="card-artist">Artista</span>
+                    </li>
+                    <li>
+                        <img src="https://picsum.photos/200/300?grayscale" alt="Capa do album">
+                        <span class="card-name">Nome do Artista</span>
+                        <span class="card-artist">Artista</span>
+                    </li>
+                </ul>
+            </section>
+            <div class="sep sep4">Vestibulum faucibus sem vitae lacus blandit, interdum efficitur leo accumsan. Cras ac
+                libero sed metus faucibus egestas non porta ligula.</div>
+            <section>
+                <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti esse atque nobis voluptas sapiente
+                    delectus eos, repellendus nisi unde commodi a ipsum aliquam eligendi ex soluta explicabo cupiditate
+                    aut
+                    at.</h2>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+                <button>Enviar</button>
+
+            </section>
+        </main>
+    </div>
+
+    <footer> &copy;Meu Site de Álbuns Musicais🎙️🪩🎧</footer>
 </body>
+
 </html>

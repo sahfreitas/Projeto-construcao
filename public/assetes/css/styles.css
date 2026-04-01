@@ -1,3 +1,5 @@
+@import url("mobile.css");
+
 * {
   padding: 0;
   margin: 0;
@@ -425,6 +427,10 @@ footer {
   text-align: center;
   background-color: #1c2b48;
   color: #e8ecef;
-  padding: 18px 24px;
   font-size: 13px;
+}
+#menu-toggle {
+  position: absolute;
+  opacity: 0;
+  pointer-events: none;
 }

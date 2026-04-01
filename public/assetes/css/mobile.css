@@ -96,7 +96,6 @@
 
   .hero-text h1 { font-size: 28px; }
 
-  /* Cards — um por linha */
   section:nth-child(3) ul,
   section:nth-child(7) ul {
     display: flex;
